@@ -6,6 +6,7 @@ font-style: normal;
 font-weight: normal;
 src: local('Segoe WP'), url('SegoeWP.woff') format('woff');
 }
+
 body{
      padding: 0;
      margin: 0 auto;
@@ -317,10 +318,109 @@ h1{
 footer{
      background: url(img/fon_footer.png);
      box-shadow: 0px -7px 8px -2px rgba(0,0,0,0.67);
+    
 }
 .logo__footer{
      padding-top: 10px;
 }
+.form__title{
+     color: white;
+     font-size: 34px;
+     font-family: 'PT Sans';
+     text-align: center;
+     text-transform: uppercase;
+     letter-spacing: 0px;
+     font-weight: 400;
+     border-bottom: 3px solid #f0c622 ;
+     font-weight: bold;
+     box-shadow: 2px 2px 2px 2px rgba(0.2, 0, 0, 0.2);
+}
+form{
+     height: 500px;
+     width: 450px;
+     margin: 0 auto;
+     background: rgba(236, 158, 3, 1);
+     padding: 20px;
+    
+}
+.group{
+     margin-bottom: 20px;
+
+}
+.form__btn{
+     text-align: center;
+     padding-bottom:40px;
+}
+.group label{
+     text-transform: uppercase;
+     padding-left:10px;
+     color:white;
+     font-weight: bold;
+     padding-bottom: 20px;
+    
+}
+.form__item{
+     width: 400px;
+     height: 40px;
+     border-radius: 20px;
+     outline: none;
+     border: 0;
+     background:#f0c622  ;
+     padding-left: 10px;
+     margin-top: 5px;
+     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.form__item:focus{
+     border:3px solid white;
+     transform: translateX(20px);
+}
+.group__btn{
+   text-align: center;
+   font-size: 16px;
+   width: 160px;
+   height: 50px;
+   line-height: 50px;
+   outline: none;
+   border: 0; 
+   text-transform: uppercase;
+   cursor: pointer;
+   font-weight: bold;
+   color: #665825;
+   background-color: #f5c506;
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.group__btn:hover{
+     opacity: .90;
+     transform: scale(1.1);
+}
+.modalForm{
+     padding-bottom:40px;
+     position: fixed;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     z-index: 150;
+     display: none;
+     height: 500px;
+     width: 450px;
+     margin: 0 auto;
+}
+#filter{
+     background: rgba(0, 0, 0, 0.6);
+     position: fixed;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     z-index: 100;
+     display: none;
+}
+.group__btn-fix{
+
+}
+
 @media screen and (max-width:640px){
      body{
           padding: 0;

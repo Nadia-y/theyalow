@@ -34,26 +34,24 @@
         </div>
     </header>
     <section class="main">
-      
             <div class="slide_left"> 
                 <a href="#">  <img class="slide_img" src="img/slide_left.png" alt="slide"> </a>
             </div>
             <div class="slide_right"> 
                 <a href="#">  <img class="slide_img" src="img/slide_right.png" alt="slide"> </a>
             </div>  
-       
-                    <div class="container">
-                         <div class="main__title">
-                            <video class="video__main" src="img/video.mp4" width="555" height="325" controls poster="img/video.png" >  </video> 
-                                <div class="the">
-                                    <h2 class="cool">The cool</h2>
-                                    <h2 class="minimal">The minimal</h2>
-                                </div>
-                         </div>
+                <div class="container">
+                    <div class="main__title">
+                        <video class="video__main" src="img/video.mp4" width="555" height="325" controls poster="img/video.png" >  
+                        </video> 
+                            <div class="the">
+                                <h2 class="cool">The cool</h2>
+                                <h2 class="minimal">The minimal</h2>
+                            </div>
                     </div>
+                </div>
     </section>
     <section class="main_better_design">
-           
                 <div class="better_design">
                     <img src="img/Shape 2.svg" alt="icon">
                     <h5 class="customise__title"> better design </h5>
@@ -66,33 +64,32 @@
                     <img src="img/Shape 4.svg" alt="icon">
                     <h5 class="customise__title"> its free </h5>
                 </div>   
-          
     </section>
     <section class="yellow">
             <div class="container">
                 <div class="yellow__title">
                     <h4 class="yellow__title">Lorem ipsum dolor sit amet</h4>
                 </div>
-                        <div class="yellow_main">
-                            <img class="yellow__img" src="img/lorem.png" alt="slide">
-                                <div class="pl"> <a href="#"> <img class="plus" src="img/plus.png" alt="plus"></a>  
-                                    <div class="hover"><img src="img/tt.png">  
-                                    </div>
-                                </div> 
+                    <div class="yellow_main">
+                        <img class="yellow__img" src="img/lorem.png" alt="slide">
+                            <div class="pl"> <a href="#"> <img class="plus" src="img/plus.png" alt="plus"></a>  
+                                <div class="hover"><img src="img/tt.png">  
+                                </div>
+                            </div> 
                             <video class="video__yellow" src="img/video!!!.mp4"  poster="img/video!!!.png" >  </video> 
                                 <img class="yellow__img__last" src="img/twitter.png" alt="slide">
                                     <div class="pl"><a href="#"> <img class="plus" src="img/plus.png" alt="plus"></a> 
-                                        <div class="hover"><img src="img/ttt.png">  
+                                        <div class="hover">
+                                            <img src="img/ttt.png">  
                                         </div>
                                     </div> 
+                    </div>
+                        <div class="april">
+                            <img class="april__foto" src="img/25.png" alt="25april" class="calendar">
                         </div>
-                                    <div class="april">
-                                    <img class="april__foto" src="img/25.png" alt="25april" class="calendar">
-                                </div>
-                                        <div class="yellow__range">
-                                            <input type="range" name="range" id=""min="0" max="100"  
-                                          value="20">  
-                                        </div>
+                        <div class="yellow__range">
+                            <input type="range" name="range" id=""min="0" max="100"  value="20">  
+                        </div>
             </div>
     </section>
     <section class="free">
@@ -100,7 +97,7 @@
             <div class="free__title">
                 <h4 class="free__title">Lorem ipsum dolor sit amet</h4> 
             </div>
-                     <div class="design">
+                <div class="design">
                         <img class="design__img__desktop" src="img/decstop.png" alt="desktop">
                         <img class="design__img__tablet" src="img/tablet.png" alt="tablet">
                         <img class="design__img__mobile" src="img/mob.png" alt="mobile">
@@ -120,11 +117,40 @@
                             </ul>
                      </div>
         </div>
+            <div class="form__btn"> 
+                <button onclick="show('block')" class="group__btn">registration</button>
+            </div>
+            <div id="filter" onclick="show('none')"></div>
+        <div class="modalForm" id="modalForm">
+            <form>
+                <h3 class="form__title">registration</h3>
+                <div class="group">
+                    <label for="">Name:</label>
+                    <input class="form__item" type="text">
+                </div>
+                <div class="group">
+                    <label for="">Password:</label>
+                    <input class="form__item" type="password">
+                </div>
+                <div class="group">
+                    <label for="">The password again:</label>
+                    <input class="form__item" type="password">
+                </div>
+                <div class="group">
+                    <label for="">Email:</label>
+                    <input class="form__item" type="email">
+                </div>
+                <div class="form__btn">
+                    <button class="group__btn">send</button>
+                </div>
+            </form>
+        </div>
     </section>
     <footer>
             <div class="container">
                 <img class="logo__footer" src="img/img_footer.png" alt="logo">
             </div>
     </footer>
+    <script src="modal.js"></script>
 </body>
 </html>
